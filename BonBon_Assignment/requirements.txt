@@ -1,0 +1,30 @@
+# Core LangChain
+langchain>=0.1.16
+langchain_openai
+langchainhub
+langchain-core>=0.1.33
+langchain-community>=0.0.34
+
+# OpenAI & Embeddings
+openai>=1.30.1
+tiktoken>=0.6.0
+
+# Azure OpenAI & Azure Search SDK
+azure-core>=1.29.5
+azure-search-documents>=11.4.0
+
+# Text splitting & PDF
+pymupdf>=1.23.22            # dùng fitz để đọc PDF
+unstructured>=0.12.6        # xử lý tài liệu unstructured nếu cần
+
+# Vector store
+chromadb>=0.4.24            # dùng Chroma làm vector DB
+
+# Tools
+duckduckgo-search>=4.5      # internet search tool (DuckDuckGo)
+
+# Env config
+python-dotenv>=1.0.1        # dùng để load .env
+
+# Optional: tqdm để hiển thị progress nếu chunk nhiều
+tqdm>=4.66.4
